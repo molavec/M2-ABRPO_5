@@ -32,13 +32,14 @@ const getResult = (nota) => {
         return 'Bien';
     } else if ( nota >= 8 && nota < 9 ) { // 8
         return 'Notable';
-    } else if ( nota >= 9 && nota <= 10 ) { // 9, 10
+    } else if (  9 <= nota <= 10 ) { // 9, 10
         return 'Sobresaliente';
     } else {
         return 'Ingresa un valor entre 0 y 10' 
     }
 };
 
+console.log('getResult(9)', getResult(9));
 
 
 // De
