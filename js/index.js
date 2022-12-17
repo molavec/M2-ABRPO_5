@@ -42,9 +42,11 @@ const getResult = (nota) => {
 console.log('getResult(9)', getResult(9));
 
 
-const showResultOnDOM = () => {
-    const surveyGradeElement = document.getElementById("#survey-grade");
-    surveyGradeElement.innerHTML = "Gracias por tu respuesta. La calificación que nos has otorgado es:" + getResult(9);
+const showResultOnDOM = (event) => {
+    console.log(event.target);
+    const value = document.getElementById('survey-grade').value
+    const surveyGradeElement = document.getElementById("survey");
+    surveyGradeElement.innerHTML = "Gracias por tu respuesta. La calificación que nos has otorgado es:" + getResult(value) ;
 };
 
 // Definir un 'Listener' que escuche la modificación en el #survey-grade
