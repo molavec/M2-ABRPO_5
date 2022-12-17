@@ -42,7 +42,14 @@ const getResult = (nota) => {
 console.log('getResult(9)', getResult(9));
 
 
-// De
+const showResultOnDOM = () => {
+    const surveyGradeElement = document.getElementById("#survey-grade");
+    surveyGradeElement.innerHTML = "Gracias por tu respuesta. La calificación que nos has otorgado es:" + getResult(9);
+};
+
+// Definir un 'Listener' que escuche la modificación en el #survey-grade
+document.addEventListener('change', showResultOnDOM );
+
 // Obtener la nota
 
 
