@@ -8,7 +8,7 @@ const container = document.getElementById('task-container');
 
 // Obtengo todos los contenedores .task
 const task = document.getElementsByClassName('task');
-console.log('elementos task: ', task);
+//console.log('elementos task: ', task);
 
 task[0].innerHTML = 'Cambio task 1' ;
 task[1].innerHTML = 'Cambio task 2' ;
@@ -19,24 +19,29 @@ container.innerHTML = '<p>' + date  + '</p>' ;
 
 // CÓDIGO ENCUESTA
 
-// Obtener la nota
-
 
 // función para mostrar el resultado
 const getResult = (nota) => {
-    if (nota < 3) {
+    if (nota < 3) { // 0, 1, 2 
         return 'Muy deficiente';
-    } else if ( nota >= 3 && nota < 5 ) {
+    } else if ( nota >= 3 && nota < 5 ) { // 3, 4
         return 'Insuficiente';
-    } else if ( nota >= 6 && nota < 7 ) {
+    } else if ( nota >= 5 && nota < 7 ) { // 5, 6
         return 'Suficiente';
-    } else if ( nota >= 7 && nota < 8 ) {
+    } else if ( nota >= 7 && nota < 8 ) { // 7
         return 'Bien';
-    } else if ( nota >= 8 && nota < 9 ) {
+    } else if ( nota >= 8 && nota < 9 ) { // 8
         return 'Notable';
-    } else if ( nota >= 9 && nota <= 10 ) {
+    } else if ( nota >= 9 && nota <= 10 ) { // 9, 10
         return 'Sobresaliente';
     } else {
-        'Ingresa un valor entre 0 y 10' 
+        return 'Ingresa un valor entre 0 y 10' 
     }
 };
+
+
+
+// De
+// Obtener la nota
+
+
