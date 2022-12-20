@@ -54,4 +54,10 @@ document.addEventListener('change', showResultOnDOM );
 
 // Obtener la nota
 
+// BOTON WHATSAPP
+$('#myDiv').floatingWhatsApp({
+    phone: '56993443055',
+    popupMessage: 'Hola, en que puedo ayudarte?',
+    showPopup: true
+});
 
