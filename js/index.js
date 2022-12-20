@@ -1,25 +1,4 @@
-// // //Obtenemos una fecha
-// // const date = new Date();
-// // //console.log('La fecha es:', date);
-
-// // Obtengo el elemento contenedor
-// const container = document.getElementById('task-container');
-// //console.log('elemento HTML: ', container);
-
-// // Obtengo todos los contenedores .task
-// const task = document.getElementsByClassName('task');
-// //console.log('elementos task: ', task);
-
-// task[0].innerHTML = 'Cambio task 1' ;
-// task[1].innerHTML = 'Cambio task 2' ;
-
-// //imprimo la fecha en el contenedor
-// //console.log('<p>' + date  + '</p>');
-// container.innerHTML = '<p>' + date  + '</p>' ;
-
 // CÓDIGO ENCUESTA
-
-
 // función para mostrar el resultado
 const getResult = (nota) => {
     if (nota < 3) { // 0, 1, 2 
@@ -39,7 +18,6 @@ const getResult = (nota) => {
     }
 };
 
-console.log('getResult(9)', getResult(9));
 
 
 const showResultOnDOM = (event) => {
@@ -50,7 +28,7 @@ const showResultOnDOM = (event) => {
 };
 
 // Definir un 'Listener' que escuche la modificación en el #survey-grade
-document.addEventListener('change', showResultOnDOM );
+//document.addEventListener('change', showResultOnDOM );
 
 // Obtener la nota
 
