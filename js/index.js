@@ -58,6 +58,7 @@ document.addEventListener('change', showResultOnDOM );
 $('#myDiv').floatingWhatsApp({
     phone: '56993443055',
     popupMessage: 'Hola, en que puedo ayudarte?',
-    showPopup: true
+    showPopup: true,
+    position:'right',
 });
 
