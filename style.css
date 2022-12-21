@@ -1,6 +1,6 @@
 
 * {
-    padding: auto;
+    
     margin: auto;
     font-family: Helvetica, sans-serif;
     font-size: 24px;
@@ -28,6 +28,7 @@ h2 {
 }
 
 @media(max-width: 768px){
+
     h1 {
         font-size: 32px;
     }
@@ -56,12 +57,12 @@ h2 {
 }
 
 .somos_cachu{
-    padding: 100px 10px ;
+    
     text-align: center;
 }
 
 .somos_cachu img {
-    padding: 50px;
+    
     max-width: 50%;
 }
 
@@ -116,7 +117,7 @@ h2 {
 }
 
 .footer{
-    padding: 100px 10px;
+    padding: 40px 30px;
     text-align: center;
     text-align: center;
     color: rgb(254, 254, 254);
@@ -148,4 +149,13 @@ label {
 input,
 label {
     margin: 0.4rem 0;
+}
+.card{
+    text-align: center;
+}
+
+.card img{
+    margin-top: 20px;
+    width: 70% !important;
+    max-width: 200px;
 }
