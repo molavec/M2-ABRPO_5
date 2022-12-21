@@ -1,4 +1,5 @@
 
+
 * {
     padding: auto;
     margin: auto;
@@ -75,6 +76,19 @@ h2 {
     /* background-color: rgb(223, 149, 53);     */
     padding: 10%;
 }
+
+.product-view {
+    padding: 50px 0px 100px 0px;
+}
+
+.product-name {
+    margin: 50px 0px;
+}
+
+.product-img {
+    max-width: 100%;
+}
+
 .gallery {
     display: flex;
     justify-content: space-between;
@@ -149,3 +163,14 @@ input,
 label {
     margin: 0.4rem 0;
 }
+
+
+.btn-primary {
+    background-color: rgb(223, 149, 53);
+    border-color: rgb(223, 149, 53);
+ }
+
+ .btn-primary:hover, .btn-primary:focus {
+    background-color: rgb(222, 173, 108);
+    border-color: rgb(222, 173, 108);
+ }
