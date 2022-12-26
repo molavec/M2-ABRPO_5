@@ -1,4 +1,4 @@
-# Chachureando
+# Cachureando
 
 Proyecto desarrollado para el curso de Javascript Trainee
 
@@ -16,9 +16,9 @@ Proyecto desarrollado para el curso de Javascript Trainee
 **Bootstrap**
 * El sitio en general está construido con Bootstrap.
 
-**javascript:**
-* hora en el footer
-* la encuesta de calificación está comentado
+**Javascript:**
+* Hora en el footer.
+* La encuesta de calificación está comentado.
 
 **jquery:**
 * Botón de whatsapp
